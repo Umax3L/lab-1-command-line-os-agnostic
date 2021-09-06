@@ -16,7 +16,26 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+'3D Objects'/             ntuser.dat.LOG1
+ AppData/                 ntuser.dat.LOG2
+'Application Data'@       NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ Contacts/                NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+'Creative Cloud Files'/   NTUSER.DAT{5f23a0cb-f7f2-11eb-9390-b0fc36a771c4}.TM.blf
+ Desktop/                 NTUSER.DAT{5f23a0cb-f7f2-11eb-9390-b0fc36a771c4}.TMContainer00000000000000000001.regtrans-ms
+ Documents/               NTUSER.DAT{5f23a0cb-f7f2-11eb-9390-b0fc36a771c4}.TMContainer00000000000000000002.regtrans-ms
+ Downloads/               ntuser.ini
+ Dropbox/                 OneDrive/
+ Favorites/               Pictures/
+ get-pip.py*              PrintHood@
+ Links/                   Recent@
+'Local Settings'@        'Saved Games'/
+ media-computation/       Searches/
+ MicrosoftEdgeBackups/    SendTo@
+ Music/                  'Start Menu'@
+'My Documents'@           Sti_Trace.log
+ NetHood@                 Templates@
+ NTUSER.DAT               Videos/
 
 
 ==========
