@@ -57,7 +57,7 @@ Desktop/   Documents/ Downloads/ Dropbox/
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-ls: cannot access 'D': No such file or directory
+No output.
 
 
 ==========
@@ -88,7 +88,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls
 
 
 ==========
@@ -98,7 +98,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls
 
 
 ==========
@@ -108,7 +108,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+in/
 
 
 ==========
