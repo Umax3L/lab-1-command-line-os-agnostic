@@ -118,7 +118,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+No output.
 
 
 ==========
@@ -130,7 +130,7 @@ Copy and paste the output below.
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l, -a
 
 
 ==========
@@ -142,7 +142,7 @@ Copy and paste the output below.
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
