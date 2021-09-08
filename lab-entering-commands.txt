@@ -57,7 +57,7 @@ Desktop/   Documents/ Downloads/ Dropbox/
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-No output.
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -68,7 +68,6 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 total 1
--rw-r--r-- 1 om7gv 197609 282 Apr  1  2019  desktop.ini
 
 
 ==========
@@ -78,7 +77,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-./   ../   desktop.ini   KoeiTecmo/  'My Music'@  'My Pictures'@  'My Videos'@
+./   ../
 
 
 ==========
@@ -118,13 +117,13 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-No output.
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
@@ -136,7 +135,7 @@ No output.
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
@@ -148,7 +147,7 @@ ls
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+ls Documents
 
 
 ==========
