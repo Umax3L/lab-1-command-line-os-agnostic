@@ -10,15 +10,15 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-
+ctlr + ~
 ==========
 2. Create a directory called mtec1003.
 ----------
-
+mkdir -p mtec1003
 ==========
 3. Change your directory so that you're in mtec1003.
 ----------
-
+cd mtec1003
 ==========
 4. Type:
 
