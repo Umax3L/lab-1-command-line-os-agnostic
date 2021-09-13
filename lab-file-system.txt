@@ -41,7 +41,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/
 
 
 ==========
@@ -52,7 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/  food/
 
 
 ==========
@@ -63,7 +63,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+foo/
 
 
 ==========
