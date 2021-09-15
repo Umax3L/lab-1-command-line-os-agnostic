@@ -10,7 +10,7 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-ctlr + ~
+
 ==========
 2. Create a directory called mtec1003.
 ----------
@@ -41,7 +41,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals/
+animals
 
 
 ==========
@@ -52,7 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals/  food/
+animals  food
 
 
 ==========
@@ -63,7 +63,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-foo/
+animals foo food
 
 
 ==========
@@ -74,7 +74,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/om7gv/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -85,7 +85,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/om7gv/mtec1003/foo/bar
 
 
 ==========
@@ -96,7 +96,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/om7gv/mtec1003/foo/bar/baz/qux
 
  
 ==========
@@ -107,7 +107,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/om7gv/mtec1003
 
 
 ==========
@@ -119,8 +119,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
-
+foo
+food
 
 ==========
 13. Type:
@@ -130,7 +130,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/om7gv
 
 
 ==========
