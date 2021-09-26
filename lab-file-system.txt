@@ -14,11 +14,29 @@ Follow the instructions line-by-line.
 ==========
 2. Create a directory called mtec1003.
 ----------
-mkdir -p mtec1003
+$ mkdir -p mtec1003
+
+om7gv@LAPTOP-C6LD88H8 MINGW64 ~
+$ pwd
+/c/Users/om7gv
+
+om7gv@LAPTOP-C6LD88H8 MINGW64 ~
+$ ls
+'3D Objects'/             Dropbox/                NetHood@                                                                                       OneDrive/
+ AppData/                 Favorites/              NTUSER.DAT                                                                                     Pictures/
+'Application Data'@       get-pip.py*             ntuser.dat.LOG1                                                                                PrintHood@
+ Contacts/                Links/                  ntuser.dat.LOG2                                                                                Recent@
+ Cookies@                'Local Settings'@        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Saved Games'/       
+'Creative Cloud Files'/   media-computation/      NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/
+ D/                       MicrosoftEdgeBackups/   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@
+ Desktop/                 mnt/                    NTUSER.DAT{5f23a0cb-f7f2-11eb-9390-b0fc36a771c4}.TM.blf                                       'Start Menu'@        
+ Documents/               mtec1003/               NTUSER.DAT{5f23a0cb-f7f2-11eb-9390-b0fc36a771c4}.TMContainer00000000000000000001.regtrans-ms   Sti_Trace.log       
+ doesnotexist/            Music/                  NTUSER.DAT{5f23a0cb-f7f2-11eb-9390-b0fc36a771c4}.TMContainer00000000000000000002.regtrans-ms   Templates@
+ Downloads/              'My Documents'@          ntuser.ini  
 ==========
 3. Change your directory so that you're in mtec1003.
 ----------
-cd mtec1003
+cd ~/mtec1003
 ==========
 4. Type:
 
@@ -41,7 +59,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals
+animals/
 
 
 ==========
@@ -52,7 +70,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals  food
+animals/  food/
 
 
 ==========
@@ -63,7 +81,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals foo food
+animals/  foo/  food/
 
 
 ==========
@@ -119,8 +137,9 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-foo
-food
+total 0
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:11 animals/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:12 foo/
 
 ==========
 13. Type:
@@ -141,7 +160,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+bash: cd: /Volumes: No such file or directory
 
 
 ==========
@@ -152,7 +171,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-/mnt
+/c/Users/om7gv
 
 
 ==========
@@ -170,7 +189,7 @@ Copy and paste the output into the space below.
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 pwd
-
+/c/Users/om7gv/mtec1003
 
 ==========
 16b. If you're not in the right directory, type the following command:
@@ -200,7 +219,7 @@ mkdir -p pineapple/orange/strawberry/lemon
 
 Write the command you used to create the directory below:
 ----------
-mkdir aardvark
+mkdir -p aardvark
 
 
 ==========
@@ -208,7 +227,10 @@ mkdir aardvark
 
 What is the modified date of the aardvark directory?
 ----------
-ls -l
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:25 aardvark/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:20 foo/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:20 food/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:26 pineapple/
 
 
 ==========
@@ -228,7 +250,7 @@ mkdir -p foo/bar/baz
 
 What command did you use?
 ----------
-cd
+cd foo/bar/baz
 
 
 ==========
@@ -236,7 +258,7 @@ cd
 
 What command did you use?
 ----------
-cd ls
+cd foo
 
 ==========
 23. What command is used to delete empty directories?
@@ -252,28 +274,28 @@ pwd
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
--l
+ls -l
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-cd ~
+ls ~
 
 
 ==========
 27. What's a pathname?
 ----------
-location of a directory
+location of path or file
 
 
 ==========
 28. What's a directory?
 ----------
-a file to store
+a folder that is in the filesystem
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
-location from root foler
+om7gv@LAPTOP-C6LD88H8 MINGW64 ~
