@@ -138,8 +138,7 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 total 0
-drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:11 animals/
-drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:12 foo/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 19:53 foo/
 
 ==========
 13. Type:
@@ -227,10 +226,10 @@ mkdir -p aardvark
 
 What is the modified date of the aardvark directory?
 ----------
-drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:25 aardvark/
-drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:20 foo/
-drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:20 food/
-drwxr-xr-x 1 om7gv 197609 0 Sep 22 20:26 pineapple/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 19:59 aardvark/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 19:53 foo/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 19:50 food/
+drwxr-xr-x 1 om7gv 197609 0 Sep 22 19:45 pineapple/
 
 
 ==========
